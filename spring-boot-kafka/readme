@@ -4,7 +4,7 @@ Step 3 :./bin/zookeeper-server-start.sh config/zookeeper.properties
 Step 4 :./bin/kafka-server-start.sh config/server.properties
 Step 5 :./kafka-topics.sh --create --topic order_topic --bootstrap-server 127.0.0.1:9092 
 Step 6 : open the swagger ui http://localhost:8080/swagger-ui.html and post the message
-Step 7 : the consumer app should receive a order 
+Step 7 : the consumer app should receive an order 
 
 
 
