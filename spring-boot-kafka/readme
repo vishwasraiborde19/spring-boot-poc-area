@@ -1,0 +1,8 @@
+Step 1 : install kakfa on mac os 
+Step 2 :$ brew install kafka or download from kafka site
+Step 3 :./bin/zookeeper-server-start.sh config/zookeeper.properties
+Step 4 :./bin/kafka-server-start.sh config/server.properties
+Step 5 :./kafka-topics.sh --create --topic order_topic --bootstrap-server 127.0.0.1:9092 
+
+
+
